@@ -1,0 +1,10 @@
+git int // git initializing local repo
+cd git
+// sync with remote repo (remote repo should be there already)
+git remote add origin https://github.com/arstev/JavaScriptTest.git
+// verify if was setup properly
+git remote -v
+// 2nd lesson copy remote to local
+git clone https://github.com/arstev/BookStoreManager.git
+// git status //status of the repo 
+git add -A  // stage of the changes to be ready to be commited 
