@@ -7,4 +7,14 @@ git remote -v
 // 2nd lesson copy remote to local
 git clone https://github.com/arstev/BookStoreManager.git
 // git status //status of the repo 
+
+// 1 change the files
+// 2 stage the files
 git add -A  // stage of the changes to be ready to be commited 
+// check status // git status
+// 3 commit with messae from staging area/
+git commit -m "fixing the syntax error"
+// check status // git status
+// 4 sync local repo with our remote repo with local repo
+git push 
+

@@ -13,7 +13,7 @@ var task2 = new Task({name:'create a demo modul obj2 '});
 var task3 = new Task({name:'create a demo signlton obj 3'});
 var task4 = new Task({name:'create a demo prototype obj4 '});
 
-
+// added factory pattern
 task1.complete();
 //console.log(task1.completed);
 task1.save();
