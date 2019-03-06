@@ -36,3 +36,7 @@ git checkout simpledecorator
 // if added or chnaged file all changes will be in the other branch
 git add -A  // stage
  git commit -m "adding to the simpledecorator page"
+
+// to merge the master main with the changed branch simpledecorator
+//switch to main bracn
+git checkout master
