@@ -12,9 +12,25 @@ git clone https://github.com/arstev/BookStoreManager.git
 // 2 stage the files
 git add -A  // stage of the changes to be ready to be commited 
 // check status // git status
-// 3 commit with messae from staging area/
+// 3 commit with message from staging area to local repo
 git commit -m "fixing the syntax error"
 // check status // git status
 // 4 sync local repo with our remote repo with local repo
 git push 
+
+
+/// add separate file case censative
+git add README.md
+git commit -m "Added readme"
+
+//other devs worked & i need to get the latest copy
+git pull (is shorcut for 2 commands git fetch && git merge)
+
+// create new brach on my local 
+git branch simpledecorator // create local branch
+// see all branched 
+git branch
+// switch to the new other branch
+git checkout simpledecorator
+// if added or chnaged file all changes will be in the other branch
 
