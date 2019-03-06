@@ -32,5 +32,7 @@ git branch simpledecorator // create local branch
 git branch
 // switch to the new other branch
 git checkout simpledecorator
+// add to ONLY new Branch simpledecorator
 // if added or chnaged file all changes will be in the other branch
-
+git add -A  // stage
+ git commit -m "adding to the simpledecorator page"
