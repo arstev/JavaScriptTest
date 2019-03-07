@@ -24,7 +24,7 @@ git push
 git add README.md
 git commit -m "Added readme"
 
------------------------------------------------------
+-------------branching----------------------------------------
 //other devs worked & i need to get the latest copy
 git pull (is shorcut for 2 commands git fetch && git merge)
 
@@ -52,4 +52,7 @@ git push
 git branch -d simpledecorator
 
 
-------------------------------------------------
+----------resolve merge conflicts --------------------------------------
+
+
+
