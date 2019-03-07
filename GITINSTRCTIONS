@@ -8,6 +8,7 @@ git remote -v
 git clone https://github.com/arstev/BookStoreManager.git
 // git status //status of the repo 
 
+----------------------------------------------------
 // 1 change the files
 // 2 stage the files
 git add -A  // stage of the changes to be ready to be commited 
@@ -23,6 +24,7 @@ git push
 git add README.md
 git commit -m "Added readme"
 
+-----------------------------------------------------
 //other devs worked & i need to get the latest copy
 git pull (is shorcut for 2 commands git fetch && git merge)
 
@@ -37,6 +39,17 @@ git checkout simpledecorator
 git add -A  // stage
  git commit -m "adding to the simpledecorator page"
 
+//!!! COMBINE 
 // to merge the master main with the changed branch simpledecorator
-//switch to main bracn
+//switch to main branch
 git checkout master
+git merge simpledecorator
+//if susfully megrged 
+git status
+git push 
+
+// if need to delete 
+git branch -d simpledecorator
+
+
+------------------------------------------------
