@@ -54,5 +54,13 @@ git branch -d simpledecorator
 
 ----------resolve merge conflicts --------------------------------------
 
-
+1 change file in master 
+2 stage & commit 
+git add -A
+git commit -m "added comments"
+git push
+3 if error messqge is 
+there remote contains work that you do
+hint: not have locally
+4 do this 
 
