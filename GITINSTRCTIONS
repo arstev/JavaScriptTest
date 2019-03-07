@@ -66,4 +66,33 @@ hint: not have locally
   git status 
 5 becasue the remote fepo has a diffent code we need to 
 GIT PULL 
-6 
+6 go to the files having conflict 
+  remove or change text
+7 atage & comit & push
+
+---------start work on new feature & we told there is critical brach-------
+---------if there is a bug needs to fixed but we did not finish our work
+
+1 //start working on the new feature 
+  //create branch month 
+  git checkout -b month
+  //add & change code But !!!
+2 if there is a bug needs to fixed but we did not finish our work
+  need to save the changes before we switch to the other branch
+STAGE THE CURRENT CHANGES 
+git add -A
+git stash 
+
+3 //create branch the new brach to fix critical bug 
+  git checkout -b bugcritical
+fix bug
+git Add -A
+git commit -m "fixing the ctritical bug"
+//merge crritical fix to the master branch
+git checkout master
+// merge critcal fix bugcritical bracnh to master
+git merge bugcritical 
+git push
+// switch to the working branch month
+git checkout month
+git stash apply 
