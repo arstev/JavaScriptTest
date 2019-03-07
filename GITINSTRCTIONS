@@ -62,5 +62,8 @@ git push
 3 if error messqge is 
 there remote contains work that you do
 hint: not have locally
-4 do this 
-
+4 do nened fix 
+  git status 
+5 becasue the remote fepo has a diffent code we need to 
+GIT PULL 
+6 
