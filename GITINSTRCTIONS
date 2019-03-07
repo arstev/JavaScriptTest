@@ -96,3 +96,13 @@ git push
 // switch to the working branch month
 git checkout month
 git stash apply 
+
+!!----rule after we change stuff we merge from working branch to the master---------
+// after change files : 1 stage 2 commit 3 switch matster & 4  merge to master 
+git Add -A
+git commit -m "fixing the ctritical bug"
+git checkout master
+git merge month
+git push
+
+
